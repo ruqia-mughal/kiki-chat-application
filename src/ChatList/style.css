@@ -1,0 +1,218 @@
+
+.avtr{
+    background-color: cornflowerblue !important;
+    color: cornsilk !important;
+
+}
+@media screen and (max-width: 440px) {
+
+.email{
+    color:rgb(22, 132, 160);
+    font-weight: lighter;
+    font-size: smaller !important;
+ }
+.sidemsg{
+    color:mediumvioletred;
+    font-family: cursive;
+    font-size: smaller !important;
+  
+  }
+.avtr{
+margin:0 !important;
+padding: 0 !important;
+}
+  
+.curtime{
+    color:grey;
+ }
+.MuiListItem-gutters {
+    padding: 1px !important;
+    
+}
+.MuiListItemAvatar-alignItemsFlexStart {
+  margin-top: 1px;
+}
+
+.MuiListItemAvatar-root {
+  min-width: 0px;
+  flex-shrink: 0;
+}
+
+}
+
+.box1{
+    position: relative;
+  color: rgb(99, 94, 94);
+  width: 100%;
+  height: 100%;
+  
+  }
+  .box1 .square1{
+  position: relative;
+
+  backdrop-filter: blur(1px) !important;
+  box-shadow: 0 25px 45px rgba(230, 233, 191, 0.589);
+  animation: 3s cubic-bezier(0.1, -0.6, 0.2, 0) 5s infinite normal slidein;
+  opacity: 0.5;
+ 
+   }
+   .box1 .square1:nth-child(1){
+    top: 100px !important;
+    left: 100px !important;
+    width: 50px !important;
+    height: 50px !important;
+    background-color: rgb(43, 155, 230) ;
+   }
+   .box1 .square1:nth-child(2){
+    top: 50px !important;
+    left: 50px !important;
+    width: 50px !important;
+    height: 50px !important;
+    background-color: rgb(218, 214, 11) ;
+   }
+   .box1 .square1:nth-child(3){
+    top: 0px !important;
+    left: 0px !important;
+    width: 50px !important;
+    height: 50px !important;
+    background-color: rgb(247, 46, 19);
+   }
+   .btn {
+   
+    padding: 0.75rem;
+    text-align: center !important;
+    border-radius:100px !important ;
+    height: auto !important;
+    color: rgb(255, 241, 241);
+    text-transform: uppercase;
+    font-size: small !important;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background-color: blue;
+}
+.btn:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius:100px !important ;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+   
+    z-index: -2;
+}
+.btn:before {
+    content: '';
+    border-radius:100px !important ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(5, 5, 189);
+    transition: all 0.5s;
+   
+    z-index: -1;
+}
+.btn:hover {
+    color: white;
+}
+.btn:hover:before {
+    width: 100%;
+}
+
+* { text-decoration: none;
+  
+}
+.friendhedding{
+  color:rgb(40, 165, 117);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+  text-transform: capitalize;
+  text-indent: 10px;
+  text-shadow: 1px 1px 3px rgb(235, 232, 213);
+
+}
+.margin0{
+  margin:8px 0px !important;
+}
+.email{
+  color:rgb(22, 132, 160);
+  font-weight: lighter;
+  font-size: medium;
+}
+.sidemsg{
+  color:mediumvioletred;
+  font-family: cursive;
+
+}
+.curtime{
+  color:grey;
+}
+   .geeks { 
+    height: 60vh; 
+    width: auto; 
+    padding:12px !important;
+    margin:  10px;
+    background-color:transparent;
+    box-shadow: 5px -5px 10px rgb(235, 231, 231);
+    border-radius: 30px 10px -22px 8px !important; 
+    text-align: center;
+ 
+  } 
+  .gfg { 
+    color:rgb(233, 16, 16); 
+    cursor: pointer;
+    font-size:30px; 
+    font-weight:bold; 
+  } 
+  .g4g { 
+    color:grey; 
+    cursor: pointer;
+  font-size: 12px ;
+    font-weight:lighter ; 
+  } 
+ 
+  .gfg:hover { 
+    z-index: -1; 
+ cursor: pointer;
+    opacity: 0.5; 
+    font-size:20px; 
+    text-align:center; 
+    transform-style:all; 
+    transition-duration: 1s; 
+  } 
+  .g4g:hover { 
+    cursor: pointer;
+    z-index: -1; 
+    color:black; 
+    opacity: 0.3; 
+    font-size:17px; 
+    text-align:center; 
+    transform-style:all; 
+    transition-duration: 1s; 
+  } 
+
+  .signOutBtn {
+     position: relative;
+   bottom: 0px;
+   left: 0px;
+ 
+  border-radius: 0px;
+  background-color: #227092 !important ;
+  height: 35px;
+  box-shadow: 0px 0px 2px grey;
+  color:rgb(247, 229, 231);
+  color: white !important;
+  }
+
+
+
+
+  .signOutBtn:hover {
+   border-radius:50px;
+
+ }

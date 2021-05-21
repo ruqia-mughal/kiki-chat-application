@@ -1,0 +1,117 @@
+
+
+* {
+    
+    text-decoration: none;
+  
+}
+
+
+.wrapper{
+    position: relative;
+    top: 10vh;
+
+    margin: 1px auto !important;
+    padding: 0px !important;
+    transform: translate(-50%, -50%);
+    
+    width: auto;
+    left: calc(40% + 150px - 175px);
+   
+  }
+  @media screen and (max-width: 440px) {
+    .wrapper{
+   
+      margin: 1px auto !important;
+      padding: 0px !important;
+   
+      width: auto;
+      left: calc(59% + 150px - 175px);
+     
+    }
+    .unique:hover + .icon{
+      border: 3px solid green;
+      right: -5% !important;
+    }
+    
+    
+  }
+ 
+  
+  .sndicon{
+      font-size: larger !important;
+    
+  }
+
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    color: green !important;
+    transition: all .35s;
+  }
+  
+  .icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    fill: green;
+    transition: all .35s;
+  }
+  .unique{
+    display: block;
+    width: 180px;
+    height: auto;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: all .35s;
+    margin: 0px !important;
+    padding: 0px !important;
+    
+    text-transform: uppercase;
+  
+    border: 3px solid black;
+    background: rgb(70, 69, 69);
+    color: #fff;
+  }
+  
+  .unique:hover{
+    width: 200px;
+    border: 3px solid green;
+    background: transparent;
+    color: green !important;
+  }
+  
+  .unique:hover + .icon{
+    border: 3px solid green;
+    right: -25%;
+  
+  }
+  .button{
+    outline: none !important;
+    border: none !important;
+    width: 100% !important;
+    font-family: "Orbitron" !important;
+    color: white !important;
+    font-size: x-large !important;
+    padding: 0px !important;
+    margin: 0px !important;
+   }
+   .button:hover{
+    outline: none !important;
+    background-color: transparent !important;
+    border: none !important;
+    color: green !important;
+    font-size: x-large !important;
+    padding: 0px !important;
+    margin: 0px !important;
+   }
+  
